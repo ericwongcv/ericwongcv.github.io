@@ -335,7 +335,21 @@
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
                             Codewars Profile Badge: 
-                            <p><img src="https://www.codewars.com/users/eric_33/badges/large" alt="codewars-ranking-banner" style="padding-left: 50px;"/></p> 
+                            <!-- <p><img src="https://www.codewars.com/users/eric_33/badges/large" alt="codewars-ranking-banner" style="padding-left: 50px;"/> -->
+                            <p>
+                                <picture>
+                                    <source 
+                                      media="(min-width: 650px)"
+                                      srcset="https://www.codewars.com/users/eric_33/badges/large">
+                                    <source 
+                                      media="(min-width: 400px)"
+                                      srcset="https://www.codewars.com/users/eric_33/badges/micro">
+                                    <img 
+                                        src="https://www.codewars.com/users/eric_33/badges/large" 
+                                        alt="codewars-ranking-banner"
+                                        style="padding-left: 50px;" />
+                                </picture>
+                            </p> 
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
