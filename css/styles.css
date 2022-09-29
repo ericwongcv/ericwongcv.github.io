@@ -11461,13 +11461,10 @@ section.resume-section .resume-section-content {
   transition: 0.3s;
 }
 
-#myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
+.project img:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px #2697d8;
 }
-
-#myImg:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {
